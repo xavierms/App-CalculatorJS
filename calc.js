@@ -16,11 +16,6 @@ botonNumeros.forEach(function(boton){
        agregarNumero(boton.innerText);
     })
 });
-botonPunto.forEach(function(boton){
-    boton.addEventListener('click', function(){
-       agregarPunto(boton.innerText);
-    })
-});
 
 botonOpera.forEach(function(boton){
     boton.addEventListener('click', function(){
